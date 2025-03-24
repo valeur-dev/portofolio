@@ -1,0 +1,205 @@
+body {
+    font-family: 'Arial', sans-serif; /* Police de caractères lisible */
+    line-height: 1.6; /* Espacement des lignes pour une meilleure lisibilité */
+    color: #333; /* Couleur de texte sombre pour un bon contraste */
+    margin: 1em; /* Marge autour du contenu */
+}
+
+h1, h2, h3 {
+    color: ; /* Couleur pour les titres */
+    margin-bottom: 0.5em; /* Espacement sous les titres */
+}
+
+p {
+    text-align: justify; /* Justification du texte */
+    margin-bottom: 1.0em; /* Espacement entre les paragraphes */
+    
+}
+
+ul {
+    list-style-type: disc; /* Style de liste à puces */
+    margin-left: 1.5em; /* Marge à gauche pour les listes */
+}
+
+li {
+    margin-bottom: 0.5em; /* Espacement entre les éléments de liste */
+}
+
+strong {
+    font-weight: bold; /* Texte en gras pour les mots clés */
+}
+
+/* Style pour les certifications */
+.certification {
+    margin-bottom: 1em;
+    padding: 1em;
+    border: 1px solid #ddd; /* Bordure légère */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.certification h3 {
+    color: #28a745; /* Couleur pour les titres de certification */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenu {
+    text-align: justify; /* Justification du texte */
+    padding: 1.5em;
+    max-width: 1500px;
+    margin: 1em;
+}
+
+.image-texte {
+    display: flex; /* Crée un conteneur flex */
+    align-items: right; /* Centre les éléments verticalement */
+}
+
+#image-texte img {
+    margin-right: 20px; /* Ajoute un espace entre l'image et le texte */
+    max-width: 300px; /* Ajuste la largeur de l'image */
+    height: auto;
+}
+
+#image-texte div {
+    flex: 0; /* Permet au texte de prendre l'espace restant */
+}
+
+#image-texte p {
+  text-align: justify;
+}
+.responsive-image {
+    width: 200px; /* Réduit la largeur de l'image à 50 % de la largeur de la fenêtre d'affichage */
+    height: 300px;
+}
+.titre-contact {
+    color: white; /* Couleur du texte en blanc */
+    background-color: #ff5a30;
+    display: inline-block; /* Ajuste la largeur du fond au contenu */
+    padding: 5px 10px;
+}
+ /* Contour orange */
+.projet {
+    margin-bottom: 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: white;
+  }
+  .bouton-facebook {
+    display: inline-block;
+    background-color: #1877f2; /* Couleur Facebook */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Espace sous le bouton */
+}
+
+.bouton-facebook:hover {
+    background-color: #166fe5; /* Couleur plus foncée au survol */
+}
+
+.titre-contact {
+    color: white;
+    background-color: #ff5a30;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+#contact form ul {
+    list-style: none; /* Supprime les puces des listes */
+    padding: 0;
+    margin: 5px 0; /* Ajoute un peu d'espace entre les éléments */
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%; /* Les champs prennent toute la largeur du formulaire */
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; /* Inclut la bordure et le remplissage dans la largeur */
+}
+
+#contact form textarea {
+    height: 150px; /* Hauteur de la zone de texte */
+}
+
+#contact form button {
+    background-color: #007bff; /* Couleur du bouton "Envoyer" */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.images-cote-a-cote {
+    display: flex; /* Affiche les images côte à côte */
+    align-items: center; /* Centre les images verticalement */
+}
+
+.images-cote-a-cote img {
+    width: 300px; /* Ajustez la largeur des images selon vos besoins */
+    height: auto; /* Ajuste la hauteur automatiquement */
+    margin-right: 10px; /* Ajoute un espace entre les images */
+    transition: transform 0.3s ease; /* Ajoute une transition pour le zoom */
+}
+
+.images-cote-a-cote img:hover {
+    transform: scale(1.2); /* Zoom au survol */
+}
+
+#contact form button:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+  
+form {
+    display: 1.5em;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+#accueil  p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+}
+
+button {
+    background-color: #45a049;
+    color: #fff;
+    padding: 0.5em 1em;
+    border: none;
+    cursor: pointer;
+}
